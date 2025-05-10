@@ -9,7 +9,7 @@ Let us now create a class using the class keyword.
 class Details:
     name = "Ahmed"
     age = 20
- ```
+```
 
 ## Creating an Object:
 Object is the instance of the class used to access the properties of the class
