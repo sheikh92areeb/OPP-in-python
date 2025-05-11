@@ -24,7 +24,7 @@ child_object.child_method()
 ```python 
 This is the child method.
 This is the parent method.
-  ```
+```
 In this example, we have a ParentClass with a parent_method and a ChildClass that inherits from ParentClass and overrides the child_method. When the child_method is called, it first prints "This is the child method." and then calls the parent_method using the super() keyword.
 
 The super() keyword is also useful when a class inherits from multiple parent classes. In this case, you can specify the parent class from which you want to call the method.
@@ -48,11 +48,13 @@ class ChildClass(ParentClass1, ParentClass2):
 child_object = ChildClass()
 child_object.child_method()
 ```
+
 ### Output:
 ```python 
 This is the child method.
 This is the parent method of ParentClass1.
 ```
+
 In this example, the ChildClass inherits from both ParentClass1 and ParentClass2. The child_method calls the parent_method of the first parent class using the super() keyword.
 
 In conclusion, the super() keyword is a useful tool in Python when you want to call a parent class method in a child class. It can be used in inheritance scenarios with a single parent class or multiple parent classes.
